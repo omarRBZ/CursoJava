@@ -15,6 +15,7 @@ public class Palindromo{
         }
       }
   }
+  
 nuevaCadena=nuevaCadena.replace(" ", "");
 for (int i = nuevaCadena.length()-1; i>=0 ;i-- ) {
   char l=nuevaCadena.charAt(i);
